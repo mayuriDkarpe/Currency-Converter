@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="converter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+      <center>
+    <div class="container">
+
+            <h1>Currency Converter</h1>
+
+            <div class="amount">
+
+            <label>Enter Amount </label> 
+            <input  type="text" value="1"/>
+            </div>
+            
+        <div class="dropdown">
+            <div class="from">
+                 <label for="">From:</label>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from" id="">
+                    </select>
+                </div>
+            </div>
+
+       <i class="fa-solid fa-up-down"></i>
+            <div class="to">
+                <label for="">TO:</label>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select name="to" id="">
+                    </select>
+                </div>
+            </div>
+
+        <button class="btn">Get Converted Rate</button>
+
+        <div class="msg">1 USD = 84 INR</div>
+      
+    </div>
+      </center>
+<script src="converter.js"></script>
+</body>
+</html>
